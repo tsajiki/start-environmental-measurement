@@ -1,11 +1,13 @@
 # start-environmental-measurement
 ## 環境計測ことはじめ（作成中）
 
-モノワイヤレスの無線マイコン TWELITE DIP（トワイライトディップ）で無線タグアプリを使用する。センサーは、TSL2561 (照度)、BME280 (温湿度・気圧)。
+モノワイヤレスの無線マイコン TWELITE DIP（トワイライトディップ）で無線タグアプリを使用した。センサーは、TSL2561 (照度)、BME280 (温湿度・気圧)。
 
 [無線タグアプリ（App_Tag）I2Cセンサー - MONO-WIRELESS.COM](https://mono-wireless.com/jp/products/TWE-APPS/App_Tag/I2C.html)
 
-セミコロン区切り形式で受信したデータをファイルに保存するスクリプト。
+セミコロン区切り形式で受信したデータをファイルに保存するプログラムを作成した。
+
+twelite_read.py
 
 受信したデータ
 ~~~
